@@ -9,8 +9,6 @@ import reducers from './reducers';
 
 class App extends Component {
 
-  
-
   render() {
     return (
       <Provider store={createStore(reducers)}>
