@@ -1,9 +1,9 @@
 
 import React, { Component } from 'react';
 import { View } from 'react-native';
-import { Header } from './components/common';
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';
+import { Header } from './components/common';
 import reducers from './reducers';
 import LibraryList from './components/LibraryList';
 
